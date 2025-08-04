@@ -1,0 +1,71 @@
+@font-face {
+  font-family: "CairoliNow";
+  src: url("../fonts/CairoliNow-Regular.ttf") format("truetype");
+  font-weight: normal;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "CairoliNow";
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "CairoliNow";
+  font-weight: bold;
+}
+
+.col-theme-bg {
+  background-color: #3CB615;
+}
+
+.col-theme{
+  color: #3CB615;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #3CB615 !important;
+}
+
+.res-py {
+  padding: 0 50px;
+}
+
+.pad-mar-no {
+  padding: 0;
+  margin: 0;
+}
+
+.f-sz-sm {
+  font-size: 13px;
+}
+
+.swiper-button-next{
+    content: url(../../assets/icons/next-sm.png);
+}
+
+.swiper-button-prev{
+    content: url(../../assets/icons/back-sm.png);
+}
+
+@media only screen and (max-width: 991px) {
+  .res-py {
+    padding: 0 30px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .res-py {
+    padding: 0 10px;
+  }
+
+  .swiper-button-next,
+  .swiper-button-prev {
+    display: none;
+  }
+}
